@@ -2375,7 +2375,6 @@ def attendance_page():
 
         if lat and lng:
             gmaps_link = f"https://maps.google.com/?q={lat},{lng}"
-            st.success(f"Fetched Location: [View on Google Maps]({gmaps_link})")
         else:
             gmaps_link = ""
             st.info("Waiting for location permission...")
