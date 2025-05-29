@@ -101,7 +101,7 @@ def display_login_header():
         st.markdown("""
         <div style='text-align: center; margin-bottom: 30px;'>
             <h1 style='margin-bottom: 0;'>Employee Portal</h1>
-            <h2 style='margin-top: 0; color: #555;'>Login</h2>
+            <h2 style='margin-top: 0; color: #555;'>Head Office</h2>
         </div>
         """, unsafe_allow_html=True)
 
